@@ -1,0 +1,10 @@
+mymodel = initial run 0.05 test set 
+my_model2 = 75 epochs 0.1 test 
+my_model3= 100 epochs 0.1 test 100% accuracy
+
+
+
+TODO 
+1) try w more data
+2) make validation set 
+3) get graphs
