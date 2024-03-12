@@ -1,6 +1,10 @@
 # FormFit
 
-FormFit is a prototype application designed to detect and count pushups, squats, and lunges while providing feedback on exercise form. It utilizes machine learning models for pose estimation and classification. This was developed for the Benefit Advanced AI Hackathon 2024 organized by the University of Bahrain.
+FormFit is a prototype application designed detect exercices (pushups, squats, and lunges)and count them, after which the form is analyzed and feedback is provided on exercise form. It utilizes MediaPipe's pose estimation solution (An open-source machine learning framework), followed by classification of the action through a custom-built sequential model with LSTM layers. Algorithms backed by professional trainers are used to provide simple feedback on the form of the exercise, aiming to avoid injuries.
+
+The exercise detection perfomed well in testing with the whole dataset, giving an accuracy of 0.95, weighted precision of 0.96, weighted recall of 0.95 and weighted F1 score of 0.96. Although the results in theory show a great result, in practice quite the level is not achieved. This could be due to the imperfections in data collection and lack of varied data.
+
+This project secured the runner's up position and was developed for the  Benefit Advanced AI Hackathon 2024 organized by the University of Bahrain
 
 ## Data
 - Data was collected using MediaPipe's pose estimation solution, collecting the normalized coordinates for 33 points.
